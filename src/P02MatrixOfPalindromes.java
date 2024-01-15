@@ -22,8 +22,8 @@ public class P02MatrixOfPalindromes {
     }
 
     private static void printMatrix(String[][] matrix, int rows, int cols) {
-        for (int col = 0; col < matrix.length; col++) {
-            for (int row = 0; row < matrix[col].length; row++) {
+        for (int col = 0; col < rows; col++) {
+            for (int row = 0; row < cols; row++) {
                 System.out.print(matrix[col][row] + " ");
             }
             System.out.println();
